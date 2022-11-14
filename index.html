@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+	<!-- <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png"> -->
+	<!-- <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png"> -->
+	<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700&display=swap"
+		rel="stylesheet">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<title>Portfólio de João Guilherme</title>
+</head>
+
+<body>
+	<div class="container">
+		<header id="home">
+			<div class="header">
+				<h1 id="titleHeader">João Victor</h1>
+				<ul>
+					<a href="#home">
+						<li>HOME</li>
+					</a>
+					<a href="#skills">
+						<li>SKILLS</li>
+					</a>
+					<a href="#projects">
+						<li>XP</li>
+					</a>
+					<a href="#aboutme">
+						<li>SOBRE MIM</li>
+					</a>
+					<a href="#contact">
+						<li>CONTATO</li>
+					</a>
+				</ul>
+			</div>
+			<div class="menuHamburguer">
+				<i class='bx bx-menu' onclick="showNav()"></i>
+				<nav class="navResponsive">
+					<ul>
+						<a href="#home">
+							<li><i class='bx bx-home'></i> HOME</li>
+						</a>
+						<a href="#skills">
+							<li><i class='bx bxs-star'></i> SKILLS</li>
+						</a>
+						<a href="#projects">
+							<li><i class='bx bxs-folder-open'></i> PROJETOS</li>
+						</a>
+						<a href="#aboutme">
+							<li><i class='bx bxs-user'></i> SOBRE MIM</li>
+						</a>
+						<a href="#contact">
+							<li><i class='bx bxs-phone'></i> CONTATO</li>
+						</a>
+					</ul>
+				</nav>
+			</div>
+			<div class="banner">
+				<div class="textBanner">
+					<h1 id="titleTyping">Suporte/Front-end</h1>
+					<p id="textTyping">João Victor</p>
+					<a href="https://github.com/Viictorsantosr" target="_blank"><button><i class="fab fa-github"
+								id="fa-github-header"></i>VER REPOSITÓRIOS</button></a>
+				</div>
+				<div class="imageBanner">
+					<img src="./imagens/fotoHome.svg" />
+				</div>
+			</div>
+
+
+		</header>
+
+		<div class="break"></div>
+
+		<div class="containerSkills">
+			<div class="sessao-conhecimentos" id="skills">
+				<div class="sectionHeader">
+					<h1>Skills</h1>
+					<div class="subTitle">
+						<h2>Featured skills:</h2>
+						<p>Essas são as principais habilidades e tecnologias que auxiliam no meu desempenho na
+							programação diária
+							e desenvolvimento web.</p>
+					</div>
+				</div>
+				<div class="skills">
+					<div class="skill skillPurple">
+						<div class="skillBoxText">
+							<div>
+								<i class="fab fa-html5"></i>
+								<i class="fab fa-css3"></i>
+								<!-- <i class='bx bxl-sass'></i>
+								<i class='bx bxl-tailwind-css'></i> -->
+							</div>
+							<h3>Web Development</h3>
+							<p>Desenvolvimento de interfaces com HTML5, CSS3.</p>
+						</div>
+					</div>
+					<div class="skill skillWhite">
+						<div class="skillBoxText">
+							<i class="fab fa-js"></i>
+							<h3 class="titlePurple">JavaScript</h3>
+							<p>Com a linguagem de programação universal e mais usada no mundo, JavaScript dá vida aos
+								meus projetos.</p>
+						</div>
+					</div>
+					<div class="skill skillPurple">
+						<div class="skillBoxText">
+							<div>
+								<i class="fab fa-react"></i>								
+							</div>
+							<h3>React</h3>
+							<p>Com os frameworks do JS (ReactJS) consigo desenvolver aplicações mais perfomáticas.
+							</p>
+						</div>
+					</div>
+					<div class="skill skillWhite">
+						<div class="skillBoxText">
+							<i class="fab fa-github"></i>
+							<h3 class="titlePurple">Git e GitHub</h3>
+							<p>Com GitHub & Git posso hospedar meu código, fazer alterações e versionar meu código,
+								podendo 'voltar no tempo' ou interagir com outros contribuidores.</p>
+						</div>
+					</div>
+					<div class="skill skillPurple">
+						<div class="skillBoxText">
+							<i class='bx bxl-php' style='color:#ffffff'  ></i>
+							<h3>PhP</h3>
+							<p>Me auxilia a construir sites dinâmicos, extensões de integração de aplicações e agilizar no desenvolvimento de um sistema.</p>
+						</div>
+					</div>
+					<div class="skill skillWhite">
+						<div class="skillBoxText">
+							<i class='bx bxl-postgresql'></i>
+							<h3 class="titlePurple">PostgreSQL</h3>
+							<p>Utilizo o sistema de banco de dados de objeto relacional PostgreSQL nos meus projetos.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="sessao-sobre-mim" id="aboutme">
+				<div class="sectionHeader">
+					<h1>XP</h1>
+				</div>
+				<div class="aboutMeFlex">
+
+					<div class="aboutMe">
+
+						<p><span>Suporte TI - 09/2021 - 12/2021</span> <span> - Nettec - Manaus, Amazonas</span></p>  <br>
+							
+							<p>• Prestação de suporte ao cliente para resolução de problemas, identificando
+								erros e tomando as providências apropriadas.</p><br>
+							• Manutenção de computadores, Impressoras e desmontagem, cabeamento,
+							instalação de câmeras e atendimentos helpdesk.
+						</p>
+
+					</div>
+				</div>
+
+			</div>
+
+			<!-- 			
+			<section class="sessao-sobre-mim" id="aboutme">
+				<div class="sectionHeader">
+					<h1>XP</h1>
+					<h2>Olá, me chamo <span>João Victor</span></h2>
+						<p> Eu tenho <span>25</span> anos e moro em Manaus, AM, atualmente sou estudante de  <span>Análise e Desenvolvimento de Sistemas 
+							</span>. Sou um jovem apaixonado por tecnologia, que está sempre em busca de
+							mais
+							conhecimento, saindo da minha zona de conforto, para
+							aprimorar minhas habilidades e entregar sempre o melhor.
+						</p>
+				</div>
+			</section>
+		
+		 -->
+
+
+
+
+			<div class="sessao-sobre-mim" id="aboutme">
+				<div class="sectionHeader">
+					<h1>Sobre mim</h1>
+				</div>
+				<div class="aboutMeFlex">
+					<div class="imgBoxMe">
+						<img src="./imagens/JOAO - FOTO.jpeg" alt="Imagem de João Guilherme">
+					</div>
+					<div class="aboutMe">
+						<h2>Olá, me chamo <span>João Victor</span></h2>
+						<p> Eu tenho <span>25</span> anos e moro em Manaus, AM, atualmente sou estudante de
+							<span>Análise e Desenvolvimento de Sistemas
+							</span>. Sou um jovem apaixonado por tecnologia, que está sempre em busca de
+							mais
+							conhecimento, saindo da minha zona de conforto, para
+							aprimorar minhas habilidades e entregar sempre o melhor.
+						</p>
+						<ul>
+							<div>
+								<li><i class="fab fa-html5"></i></li>
+								<li><i class="fab fa-css3-alt"></i></li>
+								<!-- <li><i class="fab fa-js-square"></i></li> -->
+								<li><i class='bx bxl-react'></i></li>
+								<li><i class='bx bxl-nodejs'></i></li>
+								<li><i class="fab fa-github"></i></li>
+								<!-- <li><i class='bx bxl-firebase'></i></li> -->
+								<!-- <li><i class='bx bxl-vuejs'></i></li> -->
+								<!-- <li><i class='bx bxl-sass'></i></li> -->
+								<!-- <li><i class='bx bxl-tailwind-css'></i></li> -->
+								<!-- <li><i class='bx bxl-postgresql'></i></li> -->
+							</div>
+							<a href="CV - Joao. Victor.pdf" target="_blank"><button type="button"
+									class="btn btn-about-me" id="btn-pc"><i class="fas fa-download"></i> CV
+									Download</button></a>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<section class="sessao-contato" id="contact">
+				<div class="contato-wrapper">
+					<div class="sectionHeader contact">
+						<h1>Contato</h1>
+					</div>
+					<div class="contato-left">
+						<h1>Se conecte comigo:</h1>
+						<p>Satisfeito com meu trabalho? Por favor, me contate.</p>
+						<ul class="socialMedias">
+							<li class="socialMediaIcon"> <a href="https://www.instagram.com/viictorsantosr/"
+									target="_blank">
+									<i class='bx bxl-instagram-alt'></i> </a> </li>
+							<li class="socialMediaIcon"> <a href="https://www.linkedin.com/in/viictorsantosr"
+									target="_blank"> <i class='bx bxl-linkedin-square'></i> </a> </li>
+							<li class="socialMediaIcon"> <a
+									href="https://api.whatsapp.com/send?phone=5592984136282&text=Ol%C3%A1,%20Jo%C3%A3o!%20Tenho%20interesse%20em..."
+									target="_blank"> <i class='bx bxl-whatsapp'></i> </a> </li>
+							<li class="socialMediaIcon"><a href="https://github.com/Viictorsantosr" target="_blank"> <i
+										class='bx bxl-github'></i> </a> </li>
+						</ul>
+						<ul>
+							<p><i class="fas fa-map"></i> Manaus, Brasil</p>
+						</ul>
+					</div>
+					<div class="contato-right">
+						<form action="https://formsubmit.co/jvsantosr27@gmail.com" method="POST">
+							<div class="input-group">
+								<input type="text" name="name" class="field" id="nome" placeholder="Seu nome" required>
+								<input type="email" name="email" class="field" id="email" placeholder="Seu email"
+									required>
+								<input type="number" name="number" class="field" id="number" placeholder="Seu número"
+									required>
+
+								<textarea name="message" class="field" id="mensagem"
+									placeholder="Deixe uma mensagem."></textarea>
+								<button type="submit" class="btn btn-submit" onclick="activateForm()">Enviar</button>
+							</div>
+							<input type="hidden" name="_captcha" value="false">
+						</form>
+
+					</div>
+
+
+				</div>
+		</div>
+		</section>
+		<a href="#home" id="link-topo">
+			<i class="fas fa-arrow-up"></i>
+		</a>
+
+		<div class="iconWhatsApp">
+			<a
+				href="https://api.whatsapp.com/send?phone=5592984136282&text=Ol%C3%A1,%20Jo%C3%A3o!%20Tenho%20interesse%20em...">
+				<i class='bx bxl-whatsapp'></i> </a>
+		</div>
+
+		<footer>
+			<div class="footer-content">
+				<p>
+					Copyright &copy; 2022, - Todos os direitos reservados
+				</p>
+				<div class="social-list">
+					<ul>
+						<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.instagram.com/viictorsantosr/" target="_blank"><i
+									class="fab fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/viictorsantosr" target="_blank"><i
+									class="fab fa-linkedin-in" target="_blank"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+</body>
+<script src="script.js"></script>
+<script src="./scriptScroll/configScroll.js"></script>
+
+</html>
